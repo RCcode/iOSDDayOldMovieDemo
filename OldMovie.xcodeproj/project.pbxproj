@@ -14,6 +14,14 @@
 		6F5BE0A81ABD1A2E00B15DDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5BE0A71ABD1A2E00B15DDB /* Images.xcassets */; };
 		6F5BE0AB1ABD1A2E00B15DDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5BE0A91ABD1A2E00B15DDB /* LaunchScreen.xib */; };
 		6F5BE0B71ABD1A2E00B15DDB /* OldMovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5BE0B61ABD1A2E00B15DDB /* OldMovieTests.m */; };
+		6F5BE0C11ABD1AA700B15DDB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5BE0C01ABD1AA700B15DDB /* AVFoundation.framework */; };
+		6F5BE0C41ABD1EF100B15DDB /* IS_ShareVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5BE0C31ABD1EF100B15DDB /* IS_ShareVideoViewController.m */; };
+		6F5BE0D01ABD4D1300B15DDB /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5BE0CF1ABD4D1300B15DDB /* EditViewController.m */; };
+		6F5BE0DB1ABD4DAB00B15DDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5BE0DA1ABD4DAB00B15DDB /* CoreGraphics.framework */; };
+		6F5BE0DD1ABD4DD200B15DDB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5BE0DC1ABD4DD200B15DDB /* AudioToolbox.framework */; };
+		6F5BE0DF1ABD4DDF00B15DDB /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5BE0DE1ABD4DDF00B15DDB /* GLKit.framework */; };
+		6F5BE0E11ABD4DEB00B15DDB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5BE0E01ABD4DEB00B15DDB /* CoreVideo.framework */; };
+		6F5BE0E21ABD4E1100B15DDB /* libSCRecorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5BE0D71ABD4D4500B15DDB /* libSCRecorder.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +31,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6F5BE0961ABD1A2E00B15DDB;
 			remoteInfo = OldMovie;
+		};
+		6F5BE0D61ABD4D4500B15DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F5BE0D11ABD4D4500B15DDB /* SCRecorder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC23FE1117B4200700389EDA;
+			remoteInfo = SCRecorder;
+		};
+		6F5BE0D81ABD4D4500B15DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F5BE0D11ABD4D4500B15DDB /* SCRecorder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCA8EF50192BD1C200839BE2;
+			remoteInfo = SCRecorderMac;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,6 +62,16 @@
 		6F5BE0B01ABD1A2E00B15DDB /* OldMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OldMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F5BE0B51ABD1A2E00B15DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F5BE0B61ABD1A2E00B15DDB /* OldMovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OldMovieTests.m; sourceTree = "<group>"; };
+		6F5BE0C01ABD1AA700B15DDB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6F5BE0C21ABD1EF100B15DDB /* IS_ShareVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IS_ShareVideoViewController.h; sourceTree = "<group>"; };
+		6F5BE0C31ABD1EF100B15DDB /* IS_ShareVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IS_ShareVideoViewController.m; sourceTree = "<group>"; };
+		6F5BE0CE1ABD4D1300B15DDB /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		6F5BE0CF1ABD4D1300B15DDB /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		6F5BE0D11ABD4D4500B15DDB /* SCRecorder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SCRecorder.xcodeproj; path = Library/SCRecorder.xcodeproj; sourceTree = "<group>"; };
+		6F5BE0DA1ABD4DAB00B15DDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F5BE0DC1ABD4DD200B15DDB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6F5BE0DE1ABD4DDF00B15DDB /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		6F5BE0E01ABD4DEB00B15DDB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +79,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5BE0E11ABD4DEB00B15DDB /* CoreVideo.framework in Frameworks */,
+				6F5BE0DF1ABD4DDF00B15DDB /* GLKit.framework in Frameworks */,
+				6F5BE0DD1ABD4DD200B15DDB /* AudioToolbox.framework in Frameworks */,
+				6F5BE0DB1ABD4DAB00B15DDB /* CoreGraphics.framework in Frameworks */,
+				6F5BE0C11ABD1AA700B15DDB /* AVFoundation.framework in Frameworks */,
+				6F5BE0E21ABD4E1100B15DDB /* libSCRecorder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +101,12 @@
 		6F5BE08E1ABD1A2E00B15DDB = {
 			isa = PBXGroup;
 			children = (
+				6F5BE0E01ABD4DEB00B15DDB /* CoreVideo.framework */,
+				6F5BE0DE1ABD4DDF00B15DDB /* GLKit.framework */,
+				6F5BE0DC1ABD4DD200B15DDB /* AudioToolbox.framework */,
+				6F5BE0DA1ABD4DAB00B15DDB /* CoreGraphics.framework */,
+				6F5BE0D11ABD4D4500B15DDB /* SCRecorder.xcodeproj */,
+				6F5BE0C01ABD1AA700B15DDB /* AVFoundation.framework */,
 				6F5BE0991ABD1A2E00B15DDB /* OldMovie */,
 				6F5BE0B31ABD1A2E00B15DDB /* OldMovieTests */,
 				6F5BE0981ABD1A2E00B15DDB /* Products */,
@@ -85,6 +129,10 @@
 				6F5BE09F1ABD1A2E00B15DDB /* AppDelegate.m */,
 				6F5BE0A11ABD1A2E00B15DDB /* ViewController.h */,
 				6F5BE0A21ABD1A2E00B15DDB /* ViewController.m */,
+				6F5BE0CE1ABD4D1300B15DDB /* EditViewController.h */,
+				6F5BE0CF1ABD4D1300B15DDB /* EditViewController.m */,
+				6F5BE0C21ABD1EF100B15DDB /* IS_ShareVideoViewController.h */,
+				6F5BE0C31ABD1EF100B15DDB /* IS_ShareVideoViewController.m */,
 				6F5BE0A41ABD1A2E00B15DDB /* Main.storyboard */,
 				6F5BE0A71ABD1A2E00B15DDB /* Images.xcassets */,
 				6F5BE0A91ABD1A2E00B15DDB /* LaunchScreen.xib */,
@@ -117,6 +165,15 @@
 				6F5BE0B51ABD1A2E00B15DDB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F5BE0D21ABD4D4500B15DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F5BE0D71ABD4D4500B15DDB /* libSCRecorder.a */,
+				6F5BE0D91ABD4D4500B15DDB /* SCRecorderMac.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +243,12 @@
 			mainGroup = 6F5BE08E1ABD1A2E00B15DDB;
 			productRefGroup = 6F5BE0981ABD1A2E00B15DDB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6F5BE0D21ABD4D4500B15DDB /* Products */;
+					ProjectRef = 6F5BE0D11ABD4D4500B15DDB /* SCRecorder.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6F5BE0961ABD1A2E00B15DDB /* OldMovie */,
@@ -193,6 +256,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6F5BE0D71ABD4D4500B15DDB /* libSCRecorder.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSCRecorder.a;
+			remoteRef = 6F5BE0D61ABD4D4500B15DDB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6F5BE0D91ABD4D4500B15DDB /* SCRecorderMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SCRecorderMac.framework;
+			remoteRef = 6F5BE0D81ABD4D4500B15DDB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6F5BE0951ABD1A2E00B15DDB /* Resources */ = {
@@ -219,9 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5BE0C41ABD1EF100B15DDB /* IS_ShareVideoViewController.m in Sources */,
 				6F5BE0A31ABD1A2E00B15DDB /* ViewController.m in Sources */,
 				6F5BE0A01ABD1A2E00B15DDB /* AppDelegate.m in Sources */,
 				6F5BE09D1ABD1A2E00B15DDB /* main.m in Sources */,
+				6F5BE0D01ABD4D1300B15DDB /* EditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +425,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/Library/Sources",
+				);
 				INFOPLIST_FILE = OldMovie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +440,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/Library/Sources",
+				);
 				INFOPLIST_FILE = OldMovie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +504,7 @@
 				6F5BE0BC1ABD1A2E00B15DDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F5BE0BD1ABD1A2E00B15DDB /* Build configuration list for PBXNativeTarget "OldMovieTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +513,7 @@
 				6F5BE0BF1ABD1A2E00B15DDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
